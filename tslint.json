@@ -1,0 +1,58 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "ordered-imports": false,
+    "indent": ["spaces"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "trailing-comma": [false],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "afterColon": true
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true,
+        "before": true
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "no-trailing-whitespace": false,
+    "interface-name": false,
+    "space-infix-ops": [
+      "error",
+      {
+        "int32Hint": false
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "no-var-requires": false
+  },
+  "rulesDirectory": [
+    "bin",
+    "src"
+  ]
+}

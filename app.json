@@ -1,6 +1,6 @@
 [{
   "name": "test",
-  "out_file": "./logs/out.log",
-  "error_file": "./logs/error.log",
+  "out_file": "/Users/tyt/Workspace/com/info-manager-server-api/logs/out.log",
+  "error_file": "/Users/tyt/Workspace/com/info-manager-server-api/logs/error.log",
   "instance": 4
 }]
