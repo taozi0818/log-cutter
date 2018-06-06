@@ -27,3 +27,5 @@ like this:
 - `instance` The instance for your app. If your app mode is `cluster`, it should be great than 1
 
 - `loop` Default 3. It will clear logs files before 3 days ago.
+
+After completing the `json` file for apps, you can change directory to this project's root directory, and then enter `tsc` in terminal.
